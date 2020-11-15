@@ -1,4 +1,3 @@
-
 print("Первое задание")
 a = ["string", 13, 256.3, None]
 for el in a:
@@ -12,7 +11,6 @@ while d < c:
     ls.append(input("Введите элемент списка"))
     d += 1
 print(ls)
-print(len(ls))
 i = 0
 while i < (len(ls))-1:
     ls[i], ls[i+1] = ls[i+1], ls[i]
